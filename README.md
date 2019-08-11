@@ -5,6 +5,10 @@ Tiny secure deletion script running on bash & dd. Recursively writes random data
 # Usage
 
 ```bash
+ # Download
+ $ curl "https://raw.githubusercontent.com/tcmal/cherry-bomb/master/cherrybomb.sh" -o cherrybomb.sh
+
+ # Use
  $ ./cherrybomb.sh -t eve
   Using block size of 512B
   Wiping file contents...
@@ -22,3 +26,6 @@ Tiny secure deletion script running on bash & dd. Recursively writes random data
   [...]
 ```
 
+# License
+
+Licensed under the MIT license. 
